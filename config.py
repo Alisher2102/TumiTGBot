@@ -1,2 +1,7 @@
-BOT_TOKEN = "8429424227:AAF-YZrtYjtEeV4TLlZKtdnGwqDEkeDZ39E"
-CHANNEL_ID = "@tumi_kz"
+from dotenv import load_dotenv 
+import os
+
+load_dotenv()
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHANNEL_ID = os.getenv("CHANNEL_ID")
