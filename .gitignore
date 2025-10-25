@@ -13,3 +13,18 @@ yarn-error.log*
 # Editor folders
 .vscode/
 .idea/
+
+# Local database files
+*.db
+*.db-journal
+*.sqbpro
+
+# Excel data
+*.xlsx
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# OS / editor junk
+Thumbs.db
