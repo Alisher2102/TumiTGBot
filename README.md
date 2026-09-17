@@ -31,10 +31,13 @@ those posts in sync as products are updated or removed.
    ```bash
    pip install aiogram aiosqlite pandas openpyxl python-dotenv
 Create a .env file:
-BOT_TOKEN=your_telegram_bot_token
-CHANNEL_ID=@your_channel
-DB_NAME=products.db
-EXCEL_FILE=products.xlsx
+
+   ```bash
+-BOT_TOKEN=your_telegram_bot_token
+-CHANNEL_ID=@your_channel
+-DB_NAME=products.db
+-EXCEL_FILE=products.xlsx
+```
 Initialise the database tables:
    ```bash
    python init_message_table.py
