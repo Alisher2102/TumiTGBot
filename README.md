@@ -30,3 +30,19 @@ those posts in sync as products are updated or removed.
 1. Clone the repo and install dependencies:
    ```bash
    pip install aiogram aiosqlite pandas openpyxl python-dotenv
+Create a .env file:
+BOT_TOKEN=your_telegram_bot_token
+CHANNEL_ID=@your_channel
+DB_NAME=products.db
+EXCEL_FILE=products.xlsx
+Initialise the database tables:
+   ```bash
+   python init_message_table.py
+```
+Import product data from Excel:
+  ```bash
+    python import_data.py
+```
+Run the bot:
+  ```bash
+    python main.py
